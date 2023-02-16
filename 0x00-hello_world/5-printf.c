@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 /**
  * main- prints a string followed by a new line
