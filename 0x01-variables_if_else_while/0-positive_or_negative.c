@@ -3,12 +3,12 @@
 #include <time.h>
 
 /**
- * main - Generate a random number and determine if it 
+ * main - Generate a random number and determine if it
  * is positive, negative, or zero
  *
- * This function generates a random number using the 
+ * This function generates a random number using the
  * rand() function seeded with the current time.
- * It then checks whether the number is positive, 
+ * It then checks whether the number is positive,
  * negative, or zero, and outputs the corresponding
  * string value to the console.
  *
