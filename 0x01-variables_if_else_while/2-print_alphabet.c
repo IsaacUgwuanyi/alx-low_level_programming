@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Entry point
@@ -10,14 +8,11 @@
 
 int main(void)
 	{
-	char alpha[26];
-	int i;
-	alpha = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,		t,u,v,w,x,y,z";
-		
-	for (i=0;i<26;i++)
-	{
-	putchar(alpha[i]);
-	putchar("\n");
-	}
-	return 0;
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+
+	putchar(c);
+	putchar('\n');
+	return (0);
 	}
