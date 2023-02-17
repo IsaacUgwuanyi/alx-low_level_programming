@@ -3,21 +3,15 @@
 #include <time.h>
 
 /**
- * main - returns the value of n and lastdigit with an
- * additional string of data
+ * main - Entry point of the program
  *
- * Description - The main function generates a random
- * number
- * and the variable lastdigit computes the last digit
- * which is fed to the if statements to output the corr
- * esponding strings
+ * Description: The main function generates a random number and
+ * computes the last digit to output the corresponding string.
  *
- * return Always 0;
- *
+ * Return: Always 0 (success)
  */
 
 int main(void)
-/*main - returns n value and last digit */
 {
 int n;
 int lastdigit;
