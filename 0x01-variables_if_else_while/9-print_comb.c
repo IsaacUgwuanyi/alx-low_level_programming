@@ -7,23 +7,21 @@
  * Return: Always 0.
  */
 
-int main(void) 
+int main(void)
 {
-	int n;
 	int i;
-
-	for (n = 9; n >= 0; n--)
-	{
-	for (i = 0; i <= n; i++)
-	{
-	putchar(i + '0');
-	if (i < n)
-	{
-	putchar(',');
-	putchar(' ');
-		}
+	
+for (i = 0; i < 10; i++)
+{
+putchar(i + '0');
+if (i < 9)
+{
+putchar(',');
+putchar(' ');
+} else
+{
+putchar('\n');
 	}
-	putchar('\n');
 	}
 	return 0;
 }
