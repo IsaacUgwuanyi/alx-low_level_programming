@@ -11,11 +11,13 @@
 int main(void)
 	{
 	char alpha[26];
-	alpha = ("a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,	t,u,v,w,x,y,z");
+	int i;
+	alpha = ("a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,	t,u,v,w,x,y,z")
 		
 	for (i=0;i<26;i++)
 	{
-	putchar(alpha[i]\n);
+	putchar(alpha[i]);
+	putchar("\n");
 	}
 	return 0;
 	}
