@@ -3,9 +3,16 @@
 #include <time.h>
 
 /**
- * main - the main function generates random numbers
- * the if statement checks if the number is positive, zero or negative
- * and outputs the corresponding string values (positive, zero, negative)
+ * main - Generate a random number and determine if it 
+ * is positive, negative, or zero
+ *
+ * This function generates a random number using the 
+ * rand() function seeded with the current time.
+ * It then checks whether the number is positive, 
+ * negative, or zero, and outputs the corresponding
+ * string value to the console.
+ *
+ * Return: Always 0.
  */
 
 int main(void)
