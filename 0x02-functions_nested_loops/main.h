@@ -5,7 +5,7 @@
 int _putchar(char b);
 void print_alphabet(void);
 void print_alphabet_x10(void);
-int islower(int b);
+int _islower(int b);
 int isalpha(int b);
 int print_sign(int k);
 int _abs(int);
