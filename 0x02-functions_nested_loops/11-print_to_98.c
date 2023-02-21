@@ -12,7 +12,7 @@ void print_to_98(int k)
 	if (k >= 98)
 	{
 		while (k > 98)
-			printf("%d, ",k--);
+			printf("%d, ", k--);
 		printf("%d\n", k);
 	}
 	else
