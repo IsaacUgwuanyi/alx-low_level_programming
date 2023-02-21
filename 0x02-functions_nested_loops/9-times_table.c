@@ -21,7 +21,7 @@ void times_table(void)
 		_putchar(' ');
 
 		product = num * multiply;
-		
+
 		if (product <= 9)
 			_putchar(' ');
 		else
