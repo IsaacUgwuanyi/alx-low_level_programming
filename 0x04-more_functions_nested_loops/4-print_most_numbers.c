@@ -2,9 +2,9 @@
 
 /**
  * print_most_numbers - prints numbers 0 to 9 while
- * ommiting 2 and 4
+ * while omiting 2 and 4
  *
- * Return: void
+ * Return: 0
  */
 
 void print_most_numbers(void)
